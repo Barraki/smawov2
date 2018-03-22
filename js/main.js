@@ -230,6 +230,7 @@
 	        createOverlay($trg);
 		    }
 			});
+		
 
 			contacts_Switch();
 			
