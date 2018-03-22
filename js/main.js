@@ -773,7 +773,7 @@ function mainMenu_Fix(){
 		menuOffsetTop = $('.js-header').innerHeight();
 
 	$link.click(function(){
-		$("html, body").animate({scrollTop: $($(this).attr('href')).offset().top - 50}, 0);
+		$("html, body").animate({scrollTop: $($(this).attr('href')).offset().top - 0}, 1500);
 		$(this).blur();
 		window.location.hash = $(this).attr('href');
 		return false;
@@ -1117,3 +1117,15 @@ function _hideThx(e) {
 		$('body').removeClass('fix');
 	});
 }
+
+
+$(document).ready(function () {
+	$("#nav-bar").on("click", "a", function (event) {
+		event.preventDefault();
+		var id = $(this).attr('href'),
+			top = $(id).offset().top - 100;
+		$('body,html').animate({
+			scrollTop: top
+		}, 1500);
+	});
+});
