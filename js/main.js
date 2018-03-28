@@ -46,7 +46,7 @@
 	$(document).ready(function() {
 
 		var tmpImg = new Image();
-		tmpImg.src = '../img/slider/1.jpg';
+		tmpImg.src = './img/slider/1.jpg';
 		tmpImg.onload = function() {
 			$('.js-header-slider :first-child').show().fadeOut(0).fadeIn(1200, function() { $(this).css('opactiy', 1); });
 			$(".js-header-slider").addClass('ready');

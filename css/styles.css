@@ -5006,7 +5006,7 @@ figure.large .btn {
 .project-description .param-box dt {
 	clear: left;
 	float: left;
-	width: 221px;
+	width: 400px;
 	font-size: 1.8rem;
 	color: #000000;
 	font-weight: bold;
@@ -5031,11 +5031,11 @@ figure.large .btn {
 
 .project-description .summery-box {
 	position: absolute;
-	width: 320px;
-	right: -30px;
+	width: 450px;
+	right: -234px;
 	top: -168px;
 	background: white;
-	padding: 41px 0 0 45px;
+	padding: 41px 15px 0 45px;
 }
 
 .project-description .summery-box:before {
@@ -5053,7 +5053,7 @@ figure.large .btn {
 	font-size: 2.9rem;
 	color: #1c1a1a;
 	text-transform: uppercase;
-	margin-bottom: 4px;
+	margin-bottom: 25px;
 	font-family: "Circe", "Arial", sans-serif;
 }
 
@@ -5184,18 +5184,10 @@ figure.large .btn {
 	color: #888787;
 	line-height: 1.3;
 	font-family: "Circe", "Arial", sans-serif;
+	width: 350px
 }
 
-.project-description .summery-box:after {
-	content: '';
-	display: block;
-	position: absolute;
-	left: 365px;
-	top: 0;
-	bottom: 0;
-	background: white;
-	width: calc((100vw - 880px) / 2 - 38px);
-}
+
 
 .project-description .description-box {
 	margin-bottom: 82px;
