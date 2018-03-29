@@ -299,7 +299,7 @@ function detectHashHouse() {
 
 function __changeBack() {
 	if($(this).parent('.js-materials-images, .js-quality-images').length) {
-		$(this).parent().css('background-color', '#000');
+		$(this).parent().css('background-color', '#868686');
 	}
 }
 
